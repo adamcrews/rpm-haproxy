@@ -26,8 +26,8 @@ Install rpmdevtools:
 
 ### Download haproxy
 
-    wget http://www.haproxy.org/download/1.5/src/haproxy-1.5.3.tar.gz
-    mv haproxy-1.5.3.tar.gz ~/rpmbuild/SOURCES/
+    wget http://www.haproxy.org/download/1.5/src/haproxy-1.5.5.tar.gz
+    mv haproxy-1.5.5.tar.gz ~/rpmbuild/SOURCES/
 
 ### Get Necessary System-specific Configs
 
