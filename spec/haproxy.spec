@@ -1,3 +1,5 @@
+%define version 1.5.6
+
 %define haproxy_user    haproxy
 %define haproxy_uid     188
 %define haproxy_group   haproxy
@@ -6,7 +8,6 @@
 %define haproxy_confdir %{_sysconfdir}/haproxy
 %define haproxy_datadir %{_datadir}/haproxy
 
-%define version 1.5.5
 #%define dev_rel dev25
 #%define release 1
 
