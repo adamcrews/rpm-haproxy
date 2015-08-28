@@ -1,4 +1,4 @@
-%define version 1.5.10
+%define version 1.5.14
 
 %define haproxy_user    haproxy
 %define haproxy_uid     188

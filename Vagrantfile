@@ -41,7 +41,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Bare bones CentOS 6.5 box from a trustworthy community member.
-  config.vm.box = "puppetlabs/centos-6.5-64-nocm"
+  config.vm.box = "puppetlabs/centos-6.6-64-nocm"
 
   # This optional plugin caches RPMs for faster rebuilds.
   if Vagrant.has_plugin?("vagrant-cachier")
